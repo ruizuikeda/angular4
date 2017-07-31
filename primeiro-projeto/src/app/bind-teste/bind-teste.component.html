@@ -1,0 +1,16 @@
+<section>
+    <article>
+        <h3>Teste de Bind</h3>
+        <p>Valor da URL: {{ url }} </p>
+        <p>Resultado de {{ 1 + 1 + getValor() }}</p>
+        <p>cursoAngular: {{ cursoAngular }}</p>
+        <img [src]="objImagem.src" alt="objImagem.alt">
+    </article>
+
+    <article>
+
+    </article>
+</section>
+
+
+<button type="button" class="btn btn-primary" (click)="openModalWithComponent()">Create modal with component</button>
